@@ -1,0 +1,24 @@
+{
+  "name": "dsign",
+  "version": "1.0.0",
+  "description": "firma digital",
+  "main": "./build/index.js",
+  "scripts": {
+    "dev": "ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "firma",
+    "digital"
+  ],
+  "author": "Alejandro Jorgen Marten",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
